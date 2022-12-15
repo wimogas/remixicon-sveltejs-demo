@@ -1,9 +1,10 @@
 # Barebones Icons (Sveltejs)
 [DEMO](https://barebones-icons-sveltejs.vercel.app/)
+
 A pixel-perfect collection of custom-made icons.
 
 ---
-
+<!-- 
 ### 1. Installation
 Install with npm:
 
@@ -40,7 +41,7 @@ You can also import the whole icon library:
 <main>
   <Icon.CheckIcon />
 </main>
-```
+``` -->
 
 ## Author
 Guillem Moya
