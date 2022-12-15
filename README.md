@@ -4,6 +4,11 @@
 A pixel-perfect collection of custom-made icons.
 
 ---
+### Usage
+```html
+import * as Icons from './icons';
+<Icons.AddIcon />
+```
 <!-- 
 ### 1. Installation
 Install with npm:
