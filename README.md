@@ -1,4 +1,5 @@
 # Barebones Icons (Sveltejs)
+[DEMO](https://barebones-icons-sveltejs.vercel.app/)
 A pixel-perfect collection of custom-made icons.
 
 ---
