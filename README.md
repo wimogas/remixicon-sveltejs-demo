@@ -1,5 +1,5 @@
-# Sally Icons (Sveltejs)
-A pixel-perfect collection of custom-made icons to be used in all Sales Layer projects.
+# Barebones Icons (Sveltejs)
+A pixel-perfect collection of custom-made icons.
 
 ---
 
@@ -7,7 +7,7 @@ A pixel-perfect collection of custom-made icons to be used in all Sales Layer pr
 Install with npm:
 
 ```shell
-npm install --save sally-icons
+npm install --save barebones-icons
 ```
 
 ### 2. Usage
@@ -15,7 +15,7 @@ Import the icons you need into your Svelte project and use them in components:
 
 ```html
 <script>
-  import { AddIcon, CheckIcon } from 'sally-icons';
+  import { AddIcon, CheckIcon } from 'barebones-icons';
 </script>
 
 <main>
@@ -33,7 +33,7 @@ Icons can be configured with inline props including inline ```style``` objects:
 You can also import the whole icon library:
 ```html
 <script>
-  import * as Icons from 'sally-icon';
+  import * as Icons from 'barebones-icon';
 </script>
 
 <main>
