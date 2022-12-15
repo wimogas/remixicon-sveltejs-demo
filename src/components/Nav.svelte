@@ -29,6 +29,6 @@
 <nav>
   <a href="/">BAREBONES</a>
   <div class="nav-right">
-    <a href="download"><DownloadIcon color="white" /></a>
+    <a href="https://github.com/wimogas/barebones-icons-sveltejs"><DownloadIcon color="white" /></a>
   </div>
 </nav>
