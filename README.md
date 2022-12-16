@@ -1,4 +1,4 @@
-# Remixion x Sveltejs
+# Remixicon x Sveltejs
 
 [DEMO](https://remixicon-sveltejs-demo.vercel.app/)
 
