@@ -1,16 +1,7 @@
-# Sally Icons (Sveltejs)
+# Remixion x Sveltejs
 
-A pixel-perfect collection of custom-made icons.
-
----
-### Usage
-```html
-<script>
-  import * as Icons from './icons';
-</script>
-
-<Icons.AddIcon />
-```
+[DEMO](https://remixicon-sveltejs-demo.vercel.app/)
+[remixicon-sveltejs](https://github.com/wimogas/remixicon-sveltejs)
 
 ## Author
 Guillem Moya
