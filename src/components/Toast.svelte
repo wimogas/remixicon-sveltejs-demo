@@ -4,7 +4,7 @@
 
 <style>
   .toast {
-    position: absolute;
+    position: fixed;
     background: black;
     color: white;
     padding: 12px;
@@ -14,7 +14,7 @@
     min-width: fit-content;
     white-space: nowrap;
     font-family: 'Source Code Pro';
-    bottom: 20px;
+    bottom: 70px;
     left: 20px;
   }
 

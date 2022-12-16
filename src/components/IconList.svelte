@@ -1,8 +1,10 @@
 <script>
   import Tooltip from "./Tooltip.svelte";
   import Toast from "./Toast.svelte";
+  export let folder;
   export let items;
   let index;
+  let iconName;
 
   let toggleTooltipSwitch = false;
   let toggleCopyIndicator = false;
@@ -14,8 +16,9 @@
   }
 
   const copyIconText = (title) => {
-    navigator.clipboard.writeText(title);
+    navigator.clipboard.writeText(`<${title} />`);
     toggleCopyIndicator = true;
+    iconName = title;
     setTimeout(() => {
       toggleCopyIndicator = false
     }, 1000)
@@ -35,8 +38,18 @@
     position: relative;
     cursor: pointer;
   }
+  code {
+    background-color: rgb(236, 236, 236);
+    padding: 32px;
+    border-radius: 4px;
+    min-width: 550px;
+    display: flex;
+    justify-content: center;
+  }
 </style>
-
+<code>
+  import &#123; {iconName ? iconName : 'IconName'} &#125; from 'remixicon-sveltejs/src/exports/{folder}'
+</code>
 <div class="items">
   {#each items as item, i}
     <div class="item" 
